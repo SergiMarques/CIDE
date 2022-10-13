@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Rellenar</p>
+    <input type="radio" id="inglés" name="fav_language" value="Inglés">
+    <label>Inglés</label><br>
+<input type="radio" id="alemán" name="fav_language" value="Alemán">
+    <label>Alemán</label><br>
+<input type="radio" id="francés" name="fav_language" value="Francés">
+    <label>Francés</label><br>
+   
+    <label for="puertos"></label>
+<select id="PC" name="puertos">
+<option value="usb">USB</option>
+<option value="hdmi">HDMI</option>
+<option value="sata">SATA</option>
+</select>
+
+<form action="/action_page.php">
+    <fieldset>
+       <label for="fname">Nombre</label>
+       <input type="text" id="fname" name="fname"><br>
+       <label for="sname">Apellido</label>
+       <input type="text" id="sname" name="sname"><br>
+       <input type="submit" value="Enviar">
+    </fieldset>
+</form>
+
+
+
+<p>Indique su preferencia</p>
+<label for="BI"></label>
+<select id="Genero" name="bio" size="4">
+<option value="hombre">Hombre</option>
+<option value="mujer">Mujer</option>
+</select>
+
+<form action="/action_page.php">
+    <input type="checkbox" id="hombre" name="hombre">
+    <label for="hombre">Hombre</label><br>
+    <input type="checkbox" id="mujer" name="mujer">
+    <laber for="mujer">Mujer</laber><br>
+</form>
+<label>Elije una fecha</label>
+<input type="date" id="fecha" name="fecha" value="dd/mm/aaaa">
+
+</body>
+</html>
