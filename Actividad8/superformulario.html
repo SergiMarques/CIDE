@@ -8,9 +8,10 @@
 </head>
 <body>
     <p>Indique sus preferencias por favor</p>
-    <label>Elije una fecha</label>
+    <label>Elija una fecha</label>
     <input type="data" id="fecha" name="fecha" value="dd/mm/aaaa"><br>
-    <label>Elige un fichero</label><br>
+    <label>Elija un fichero</label>
+    <input type="file" id="fichero" name="file"><br>
 
     <input type="radio" id="amd" name="AMB">
     <label>AMB</label>
@@ -22,7 +23,7 @@
 
 
     <p>Indique sus preferencias por favor</p>
-    <input type="radio" id="matemáticas" name="matemáticas>
+    <input type="radio" id="matemáticas" name="matemáticas">
     <label>Matemáticas</label>
     <input type="radio" id="historia" name="historia">
     <label>Historia</label>
@@ -42,13 +43,29 @@
         </fieldset>
     </form>
     
-<p>Elige un color</p>
-
-<label>Elije una fecha</label>
+<label>Elija un color</label>
+<input type="color" value="#000000"><br>
+<textarea name="message" rows="5" cols="50">
+    Utilice este cuadro para escribir
+</textarea><br>
+<label>Elija una fecha</label>
     <input type="data" id="fecha" name="fecha" value="dd/mm/aaaa"><br>
-    <label>Elige una hora</label>
-    <input type="time" id="hora" name="hora">
+<select id="idioms" name="lenguas">
+    <option value="ingles">Inglés</option>
+    <option value="español">Español</option>
+</select><br>
 
+
+    <label>Elija una hora</label>
+    <input type="time" id="hora" name="hora"><br>
+
+    <label>Elija un fichero:</label>
+    <input type="file" id="fichero" name="file"><br>
+
+    <input type="checkbox" id="woman" name="mujer">
+    <label>Mujer</label>
+    <input type="checkbox" id="man" name="hombre">
+    <label>Hombre</label>
 
 
 
