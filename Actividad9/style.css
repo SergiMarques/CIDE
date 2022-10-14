@@ -1,3 +1,11 @@
-header {
-    background-color: aqua;
+
+.izquierda{
+    float:left;
+    width:30%
+}
+
+
+.derecha{
+    float:left;
+    width:70%
 }
