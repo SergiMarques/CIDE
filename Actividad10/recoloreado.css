@@ -1,0 +1,16 @@
+body{
+    background-color: darkslateblue;
+}
+
+.imagen{
+    float: left;
+    width:80% ;
+    size: 10px;
+}
+
+
+
+.menu{
+    float: left;
+    background-color: white;
+}
