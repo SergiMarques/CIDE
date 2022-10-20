@@ -1,3 +1,8 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 .izquierda{
     float:left;
@@ -8,4 +13,11 @@
 .derecha{
     float:left;
     width:70%
+}
+
+
+
+.Columna{
+    float:left;
+    width:33.3%
 }
