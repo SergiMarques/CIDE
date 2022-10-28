@@ -1,16 +1,62 @@
 body{
-    background-color: darkslateblue;
-}
-
-.imagen{
-    float: left;
-    width:80% ;
-    size: 10px;
+    background-color: slategray;
 }
 
 
 
 .menu{
-    float: left;
+    width:100%;
     background-color: white;
 }
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:15px;
+    } 
+    nav li{
+    display:inline-block;
+    width:31%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+.centro{
+    float: left;
+    width:80% ;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    background-color: white;
+}
+.puntos_de_interes{
+    float:left
+    width 20%;
+    -webkit-text-fill-color: chartreuse;
+    text-align: center;
+    background-color: darkcyan;
+    border:10px solid darkcyan
+ }
+    
+.Punto1{
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+
+
+
+ .final{
+    float: left;
+    text-align: center;
+  width: 100%;  
+    background-color: fuchsia;
+    -webkit-text-fill-color: white;
+   height:65px;
+   
+ 
+ }
