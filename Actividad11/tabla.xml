@@ -1,28 +1,26 @@
-<Descripción>
-    <Parte_1>IBM da a conocer el PC</Parte_1>
-    <Parte_2>Se funda Google</Parte_2>
-    <Parte_3>Se funda Facebook</Parte_3>
+<eventos>
+<evento Descripción="IBM da a conocer el PC.">
+<Fecha>
+    <dia>12</dia>
+    <mes>8</mes>
+    <año>1981</año>
+</Fecha>
+</evento>
 
-</Descripción>
+<evento Descripción="Se funda Google.">
+    <Fecha>
+        <dia>4</dia>
+        <mes>9</mes>
+        <año>1998</año>
+    </Fecha>
+</evento>
 
-<Fecha_general>
+<evento Descripción="Se funda FaceBook">
+    <Fecha>
+        <dia>4</dia>
+        <mes>2</mes>
+        <año>2004</año>
+    </Fecha>
+</evento>
 
-<Fecha_1>
-    <Dia_1>12</Dia_1>
-    <Mes_1>8</Mes_1>
-    <Año_1>1981</Año_1>
-</Fecha_1>
-
-<Fecha_2>
-    <Dia_2>4</Dia_2>
-    <Mes_2>9</Mes_2>
-    <Año_2>1998</Año_2>
-</Fecha_2>
-
-<Fecha_3>
-    <Dia_3>4</Dia_3>
-    <Mes_3>2</Mes_3>
-    <Año_3>2004</Año_3>
-</Fecha_3>
-
-</Fecha_general>
+</eventos>
