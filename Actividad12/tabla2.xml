@@ -1,0 +1,62 @@
+<eventos>
+<evento>
+<CDs>Oferta</CDs>
+<Titulo>Still got the blues</Titulo>
+<Artista>Gary Moore</Artista>
+<Pais>UK</Pais>
+<Compañia>Virgin records</Compañia>
+<Precio>10.20</Precio>
+<Año>1990</Año>
+</evento>
+
+<evento>
+    <Titulo>One night only</Titulo>
+    <Artista>Bee Gees</Artista>
+    <Pais>UK</Pais>
+    <Compañia>Polydor</Compañia>
+    <Precio>10.90</Precio>
+    <Año>1998</Año>
+</evento>
+
+
+<evento>
+    <Titulo></Titulo>
+    <Artista></Artista>
+    <Pais></Pais>
+    <Compañia></Compañia>
+    <Precio></Precio>
+    <Año></Año>
+</evento>
+
+
+<evento>
+    <Titulo></Titulo>
+    <Artista></Artista>
+    <Pais></Pais>
+    <Compañia></Compañia>
+    <Precio></Precio>
+    <Año></Año>
+</evento>
+
+
+<evento>
+    <Titulo></Titulo>
+    <Artista></Artista>
+    <Pais></Pais>
+    <Compañia></Compañia>
+    <Precio></Precio>
+    <Año></Año>
+</evento>
+
+
+<evento>
+    <Titulo></Titulo>
+    <Artista></Artista>
+    <Pais></Pais>
+    <Compañia></Compañia>
+    <Precio></Precio>
+    <Año></Año>
+</evento>
+
+
+</eventos>
