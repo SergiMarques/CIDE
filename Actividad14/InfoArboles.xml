@@ -2,53 +2,55 @@
 
     <arbol name="Acer_monspessulanum">
 
-        <Nombre_Comun></Nombre_Comun>
-        <Vegetacion></Vegetacion>
-        <Altura></Altura>
-        <Forma_Y_Estructura></Forma_Y_Estructura>
-        <Color_En_Primavera></Color_En_Primavera>
-        <Resistencia_Heladas></Resistencia_Heladas>
+        <Nombre_Comun>Arce de Montpellier, Arce menor</Nombre_Comun>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>De 6 a 10 metros</Altura>
+        <Forma_Y_Estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</Forma_Y_Estructura>
+        <Color_En_Primavera>Haz verde brillante, envés verde blanquecino</Color_En_Primavera>
+        <Resistencia_Heladas>Heladas fuertes (hasta -15ºC)</Resistencia_Heladas>
 
     </arbol>
 
 
     <arbol name="Olea_europea">
 
-        <Nombre_Comun></Nombre_Comun>
-        <Vegetacion></Vegetacion>
-        <Altura></Altura>
-        <Forma_Y_Estructura></Forma_Y_Estructura>
+        <Nombre_Comun>Olivo</Nombre_Comun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>De 8 a 15 metros</Altura>
+        <Forma_Y_Estructura>Copa irregular. Tronco principal irregular con bifurcaciones.</Forma_Y_Estructura>
 
     </arbol>
 
 
     <arbol name="Ramaje_tortuoso">
 
-        <Color_En_Primavera></Color_En_Primavera>
-        <Resistencia_Heladas></Resistencia_Heladas>
+        <Color_En_Primavera>Haz verde oscuro, envés verde plateado</Color_En_Primavera>
+        <Resistencia_Heladas>Heladas medias (hasta -10ºC)</Resistencia_Heladas>
 
     </arbol>
 
 
     <arbol name="Platanus_orientalis">
 
-        <Nombre_Comun></Nombre_Comun>
-        <Vegetacion></Vegetacion>
-        <Altura></Altura>
-        <Forma_Y_Estructura></Forma_Y_Estructura>
-        <Color_En_Primavera></Color_En_Primavera>
-        <Resistencia_Heladas></Resistencia_Heladas>
+        <Nombre_Comun>Platano</Nombre_Comun>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>De 20 a 25 metros</Altura>
+        <Forma_Y_Estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</Forma_Y_Estructura>
+        <Color_En_Primavera>Haz verde medio, enves verde claro</Color_En_Primavera>
+        <Color_en_Otoño>Ocre</Color_en_Otoño>
+        <Resistencia_Heladas>Heladas fuertes (hasta -20ºC)</Resistencia_Heladas>
 
     </arbol>
 
     <arbol name="Quercus_ilex">
 
-        <Nombre_Comun></Nombre_Comun>
-        <Vegetacion></Vegetacion>
-        <Altura></Altura>
-        <Forma_Y_Estructura></Forma_Y_Estructura>
-        <Color_En_Primavera></Color_En_Primavera>
-        <Resistencia_Heladas></Resistencia_Heladas>
+        <Nombre_Comun>Encina</Nombre_Comun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>En torno a 25 metros</Altura>
+        <Forma_Y_Estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</Forma_Y_Estructura>
+        <Color_En_Primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</Color_En_Primavera>
+        <Resistencia_Heladas>Heladas fuertes (hasta -15ºC)</Resistencia_Heladas>
+
 
     </arbol>
 
