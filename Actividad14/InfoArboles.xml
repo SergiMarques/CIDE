@@ -1,0 +1,56 @@
+<arboles>
+
+    <arbol name="Acer_monspessulanum">
+
+        <Nombre_Comun></Nombre_Comun>
+        <Vegetacion></Vegetacion>
+        <Altura></Altura>
+        <Forma_Y_Estructura></Forma_Y_Estructura>
+        <Color_En_Primavera></Color_En_Primavera>
+        <Resistencia_Heladas></Resistencia_Heladas>
+
+    </arbol>
+
+
+    <arbol name="Olea_europea">
+
+        <Nombre_Comun></Nombre_Comun>
+        <Vegetacion></Vegetacion>
+        <Altura></Altura>
+        <Forma_Y_Estructura></Forma_Y_Estructura>
+
+    </arbol>
+
+
+    <arbol name="Ramaje_tortuoso">
+
+        <Color_En_Primavera></Color_En_Primavera>
+        <Resistencia_Heladas></Resistencia_Heladas>
+
+    </arbol>
+
+
+    <arbol name="Platanus_orientalis">
+
+        <Nombre_Comun></Nombre_Comun>
+        <Vegetacion></Vegetacion>
+        <Altura></Altura>
+        <Forma_Y_Estructura></Forma_Y_Estructura>
+        <Color_En_Primavera></Color_En_Primavera>
+        <Resistencia_Heladas></Resistencia_Heladas>
+
+    </arbol>
+
+    <arbol name="Quercus_ilex">
+
+        <Nombre_Comun></Nombre_Comun>
+        <Vegetacion></Vegetacion>
+        <Altura></Altura>
+        <Forma_Y_Estructura></Forma_Y_Estructura>
+        <Color_En_Primavera></Color_En_Primavera>
+        <Resistencia_Heladas></Resistencia_Heladas>
+
+    </arbol>
+
+
+</arboles>
