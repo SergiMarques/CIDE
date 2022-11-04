@@ -1,5 +1,5 @@
-<eventos>
-<evento>
+<CDs>
+<CD>
 
 <Titulo>Still got the blues</Titulo>
 <Artista>Gary Moore</Artista>
@@ -7,56 +7,56 @@
 <Compañia>Virgin records</Compañia>
 <Precio>10.20</Precio>
 <Año>1990</Año>
-</evento>
+</CD>
 
-<evento>
+<CD>
     <Titulo>One night only</Titulo>
     <Artista>Bee Gees</Artista>
     <Pais>UK</Pais>
     <Compañia>Polydor</Compañia>
     <Precio>10.90</Precio>
     <Año>1998</Año>
-</evento>
+</CD>
 
 
-<evento>
+<CD>
     <Titulo></Titulo>
     <Artista></Artista>
     <Pais></Pais>
     <Compañia></Compañia>
     <Precio></Precio>
     <Año></Año>
-</evento>
+</CD>
 
 
-<evento>
+<CD>
     <Titulo></Titulo>
     <Artista></Artista>
     <Pais></Pais>
     <Compañia></Compañia>
     <Precio></Precio>
     <Año></Año>
-</evento>
+</CD>
 
 
-<evento>
+<CD>
     <Titulo></Titulo>
     <Artista></Artista>
     <Pais></Pais>
     <Compañia></Compañia>
     <Precio></Precio>
     <Año></Año>
-</evento>
+</CD>
 
 
-<evento>
+<CD>
     <Titulo></Titulo>
     <Artista></Artista>
     <Pais></Pais>
     <Compañia></Compañia>
     <Precio></Precio>
     <Año></Año>
-</evento>
+</CD>
 
 
-</eventos>
+</CDs>
