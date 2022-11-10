@@ -1,75 +1,71 @@
 <Recibo>
 
-<Factura>
-    <empresa>Equipos Digitales S.L.</empresa>
-    <calle>Av. Valladolid</calle>
-    <localidad>Madrid 28015</localidad>
-    <CIF>Q-9876543</CIF>
-    <telefono>91.777.66.88</telefono>
-    <fax>91.777.66.99</fax>
-    <Fecha>12-01-2005</Fecha>
-    <pedido>nº 731</pedido>
-    <forma_de_pago>EFECTIVO</forma_de_pago>
-</Factura>
+    <Factura number="999">
+        <empresa>Equipos Digitales S.L.</empresa>
+        <calle>Av. Valladolid</calle>
+        <localidad>Madrid 28015</localidad>
+        <CIF>Q-9876543</CIF>
+        <telefono>91.777.66.88</telefono>
+        <fax>91.777.66.99</fax>
+        <Fecha>12-01-2005</Fecha>
+        <pedido>nº 731</pedido>
+        <forma_de_pago>EFECTIVO</forma_de_pago>
+    </Factura>
 
-<datos_cliente>
-    <cliente>nº 897</cliente>
-    <nombre>Dario Bueno Gutiérrez</nombre>
-    <dirrección>Av. Oporto nº7 4ºd</dirrección>
-    <población>Madrid</población>
-    <codigo_postal>28043</codigo_postal>
-    <provincia>Madrid</provincia>
-</datos_cliente>
+    <datos_cliente>
+        <cliente>nº 897</cliente>
+        <nombre>Dario Bueno Gutiérrez</nombre>
+        <dirrección>Av. Oporto nº7 4ºd</dirrección>
+        <población>Madrid</población>
+        <codigo_postal>28043</codigo_postal>
+        <provincia>Madrid</provincia>
+    </datos_cliente>
 
-<datos_factura>
-    <referencia>MII93000F/8</referencia>
-    <descripción>MICRO PENTIUM IV 3000MHZ FB800</descripción>
-    <cantidad>1</cantidad>
-    <precio>230 eur</precio>
-    <IVA>16</IVA>
-    <Importe>266,80 eur</Importe>
-</datos_factura>
+    <tabla>
+    <datos_factura>
+        <referencia>MII93000F/8</referencia>
+        <descripción>MICRO PENTIUM IV 3000MHZ FB800</descripción>
+        <cantidad>1</cantidad>
+        <precio>230 eur</precio>
+        <IVA>16</IVA>
+        <Importe>266,80 eur</Importe>
+    </datos_factura>
 
-<datos_factura>
-    <referencia>MB8QDIP5</referencia>
-    <descripción>PLACA BASE QDI P4</descripción>
-    <cantidad>1</cantidad>
-    <precio>180 eur</precio>
-    <IVA>16</IVA>
-    <Importe>208,80 eur</Importe>
-</datos_factura>
+    <datos_factura>
+        <referencia>MB8QDIP5</referencia>
+        <descripción>PLACA BASE QDI P4</descripción>
+        <cantidad>1</cantidad>
+        <precio>180 eur</precio>
+        <IVA>16</IVA>
+        <Importe>208,80 eur</Importe>
+    </datos_factura>
 
 
-<datos_factura>
+    <datos_factura>
         <referencia>MEDD512M32</referencia>
         <descripción>DIMM DDR 512MB 3200</descripción>
         <cantidad>2</cantidad>
         <precio>40 eur</precio>
         <IVA>16</IVA>
         <Importe>92,80 eur</Importe>
-</datos_factura>
+    </datos_factura>
 
 
-<datos_factura>
-            <referencia>HD250GSA7</referencia>
-            <descripción>DISCO DURO 250GB S-ATA 7200</descripción>
-            <cantidad>4</cantidad>
-            <precio>120 eur</precio>
-            <IVA>16</IVA>
-            <Importe>556,80 eur</Importe>
-</datos_factura>
+    <datos_factura>
+        <referencia>HD250GSA7</referencia>
+        <descripción>DISCO DURO 250GB S-ATA 7200</descripción>
+        <cantidad>4</cantidad>
+        <precio>120 eur</precio>
+        <IVA>16</IVA>
+        <Importe>556,80 eur</Importe>
+    </datos_factura>
 
-<Suma>
-    <Base_imponible>970 eur</Base_imponible>
-    <IVA>16</IVA>
-    <Cuota_IVA>155,20 eur</Cuota_IVA>
-</Suma>
-
-
-
-<total>
-    <precio>1125,20 eur</precio>
-</total>
-
+</tabla>
+    <Suma>
+        <Base_imponible>970 eur</Base_imponible>
+        <IVA>16</IVA>
+        <Cuota_IVA>155,20 eur</Cuota_IVA>
+        <precio_total>1125,20 eur</precio_total>
+    </Suma>
 
 </Recibo>
