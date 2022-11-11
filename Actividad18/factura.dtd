@@ -1,0 +1,33 @@
+
+    <!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
+    <!ATTLIST factura n_fac CDATA "f999">
+
+    <!ELEMENT datos_empresa (nombre,dir,poblacion,provincia,cif,telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT dir (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ATTLIST poblacion cod_postal CDATA "28043">
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cif (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    
+    <!ELEMENT datos_cliente (nombre,dir_env,poblacion,provincia)>
+    <!ATTLIST datos_cliente n_cli CDATA "c879">
+    <!ELEMENT dir_env (#PCDATA)>
+    
+
+    <!ELEMENT datos_factura (fecha,linea+,base,cuota_iva,total)>
+    <!ATTLIST datos_factura n_ped CDATA "p731">
+    <!ATTLIST datos_factura iva CDATA "16">
+    <!ATTLIST datos_factura f_pago CDATA "efectivo">
+    <!ATTLIST datos_factura moneda CDATA "euro">
+    <!ELEMENT linea (ref,desc,cant,precio,importe)>
+    <!ELEMENT ref (#PCDATA)>
+    <!ELEMENT desc (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT cant (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT importe (#PCDATA)>
+    <!ELEMENT base (#PCDATA)>
+    <!ELEMENT cuota_iva (#PCDATA)>
+    <!ELEMENT total (#PCDATA)>
