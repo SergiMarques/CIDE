@@ -1,9 +1,5 @@
 <Recibo>
 
-
-
-<!-- Hacer un push desde el PC del cole por culpa del lag -->
-
     <Factura number="999">
         <empresa>Equipos Digitales S.L.</empresa>
         <calle>Av. Valladolid</calle>

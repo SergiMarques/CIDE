@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE matricula [
-
     <!ELEMENT matricula (personal,pago)>
     <!ELEMENT personal (dni,nombre,titulacion,curso_academico,domicilios)>
     <!ELEMENT dni (#PCDATA)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT titulacion (#PCDATA)>
     <!ELEMENT curso_academico (#PCDATA)>
-
-    <!ELEMENT domicilios (domicilio)>
-    <!ELEMENT domicilio (#PCDATA)>
-    <ATTLIST domicilio type CDATA "tipo">
-
+    <!ELEMENT domicilios (domicilio+)>
+    <!ELEMENT domicilio (nombre)>
+    <!ATTLIST domicilio tipo CDATA "familiar">
     <!ELEMENT pago (tipo_matricula)>
     <!ELEMENT tipo_matricula (#PCDATA)>
-    
-    
 ]>
 <matricula>
     <personal>
