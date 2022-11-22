@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Rellenar</p>
+    <fieldset>
+     <legend>Rellenar</legend> 
     <input type="radio" id="inglés" name="fav_language" value="Inglés">
     <label>Inglés</label><br>
 <input type="radio" id="alemán" name="fav_language" value="Alemán">
@@ -15,6 +16,7 @@
 <input type="radio" id="francés" name="fav_language" value="Francés">
     <label>Francés</label><br>
    
+    <br>
     <label for="puertos"></label>
 <select id="PC" name="puertos">
 <option value="usb">USB</option>
@@ -23,18 +25,16 @@
 </select>
 
 <form action="/action_page.php">
-    <fieldset>
        <label for="fname">Nombre</label>
        <input type="text" id="fname" name="fname"><br>
        <label for="sname">Apellido</label>
        <input type="text" id="sname" name="sname"><br>
        <input type="submit" value="Enviar">
-    </fieldset>
+
 </form>
-
-
-
-<p>Indique su preferencia</p>
+</fieldset>
+<fieldset>
+<legend>Indique su preferencia por favor</legend> 
 <label for="BI"></label>
 <select id="Genero" name="bio" size="4">
 <option value="hombre">Hombre</option>
@@ -43,12 +43,12 @@
 
 <form action="/action_page.php">
     <input type="checkbox" id="hombre" name="hombre">
-    <label for="hombre">Hombre</label><br>
+    <label for="hombre">Mujer</label><br>
     <input type="checkbox" id="mujer" name="mujer">
-    <laber for="mujer">Mujer</laber><br>
+    <laber for="mujer">Hombre</laber><br>
 </form>
 <label>Elije una fecha</label>
 <input type="date" id="fecha" name="fecha" value="dd/mm/aaaa">
-
+</fieldset>
 </body>
 </html>
