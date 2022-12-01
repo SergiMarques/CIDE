@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="eventos"></xs:element>
+
+
+</xs:schema>
+
+
+
+
+<eventos>
+    <evento Descripción="IBM da a conocer el PC.">
+    <Fecha>
+        <dia>12</dia>
+        <mes>8</mes>
+        <año>1981</año>
+    </Fecha>
+    </evento>
+    
+    <evento Descripción="Se funda Google.">
+        <Fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <año>1998</año>
+        </Fecha>
+    </evento>
+    
+    <evento Descripción="Se funda FaceBook">
+        <Fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <año>2004</año>
+        </Fecha>
+    </evento>
+    
+    </eventos>
