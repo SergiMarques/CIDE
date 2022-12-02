@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE factura [
     <!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
     <!ATTLIST factura n_fac CDATA "f999">
