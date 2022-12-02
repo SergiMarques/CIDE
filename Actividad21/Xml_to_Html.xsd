@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
- <xs:element name="eventos"></xs:element>
-
-
+    <xs:element name="eventos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="evento" type="xs:string" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Fecha" type="xs:string" />
+                                <xs:complexType>
+                                    <xs:attribute name="Descipción" type="caracteristica"></xs:attribute>
+                                    <xs:sequence>
+                                        <xs:element name="dia" type="xs:string" />
+                                        <xs:element name="mes" type="xs:string" />
+                                        <xs:element name="año" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:simpleType name="Descipción">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="IBM da a conocer el PC." />
+                <xs:enumeration value="Se funda Google." />
+                <xs:enumeration value="Se funda FaceBook" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
 </xs:schema>
-
-
-
-
-<eventos>
-    <evento Descripción="IBM da a conocer el PC.">
-    <Fecha>
-        <dia>12</dia>
-        <mes>8</mes>
-        <año>1981</año>
-    </Fecha>
-    </evento>
-    
-    <evento Descripción="Se funda Google.">
-        <Fecha>
-            <dia>4</dia>
-            <mes>9</mes>
-            <año>1998</año>
-        </Fecha>
-    </evento>
-    
-    <evento Descripción="Se funda FaceBook">
-        <Fecha>
-            <dia>4</dia>
-            <mes>2</mes>
-            <año>2004</año>
-        </Fecha>
-    </evento>
-    
-    </eventos>
