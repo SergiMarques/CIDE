@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="XSL_TablaA11.xsl" type="text/xsl"?>
 <eventos>
-    <evento Descripción="IBM da a conocer el PC.">
+    <evento Descripcion="IBM da a conocer el PC.">
     <Fecha>
         <dia>12</dia>
         <mes>8</mes>
-        <año>1981</año>
+        <ano>1981</ano>
     </Fecha>
     </evento>
     
-    <evento Descripción="Se funda Google.">
+    <evento Descripcion="Se funda Google.">
         <Fecha>
             <dia>4</dia>
             <mes>9</mes>
-            <año>1998</año>
+            <ano>1998</ano>
         </Fecha>
     </evento>
     
-    <evento Descripción="Se funda FaceBook">
+    <evento Descripcion="Se funda FaceBook">
         <Fecha>
             <dia>4</dia>
             <mes>2</mes>
-            <año>2004</año>
+            <ano>2004</ano>
         </Fecha>
     </evento>
     
