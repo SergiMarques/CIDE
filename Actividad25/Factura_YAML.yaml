@@ -1,0 +1,49 @@
+Recibo:
+  Factura:
+    empresa: Equipos Digitales S.L.
+    calle: Av. Valladolid
+    localidad: Madrid 28015
+    CIF: Q-9876543
+    telefono: 91.777.66.88
+    fax: 91.777.66.99
+    Fecha: 12-01-2005
+    pedido: nº 731
+    forma_de_pago: EFECTIVO
+  datos_cliente:
+    cliente: nº 897
+    nombre: Dario Bueno Gutiérrez
+    dirrección: Av. Oporto nº7 4ºd
+    población: Madrid
+    codigo_postal: 28043
+    provincia: Madrid
+  tabla:
+    datos_factura:
+      - referencia: MII93000F/8
+        descripción: MICRO PENTIUM IV 3000MHZ FB800
+        cantidad: 1
+        precio: 230 eur
+        IVA: 16
+        Importe: 266,80 eur
+      - referencia: MB8QDIP5
+        descripción: PLACA BASE QDI P4
+        cantidad: 1
+        precio: 180 eur
+        IVA: 16
+        Importe: 208,80 eur
+      - referencia: MEDD512M32
+        descripción: DIMM DDR 512MB 3200
+        cantidad: 2
+        precio: 40 eur
+        IVA: 16
+        Importe: 92,80 eur
+      - referencia: HD250GSA7
+        descripción: DISCO DURO 250GB S-ATA 7200
+        cantidad: 4
+        precio: 120 eur
+        IVA: 16
+        Importe: 556,80 eur
+  Suma:
+    Base_imponible: 970 eur
+    IVA: 16
+    Cuota_IVA: 155,20 eur
+    precio_total: 1125,20 eur
