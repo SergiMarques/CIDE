@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clase_de_baile>
+
+<baile Tipo="Claqué">
+<Precio_de_la_clase>
+    <periocidad_cuoata>Mensual</periocidad_cuoata>
+    <moneda_de_pago>Euro</moneda_de_pago>
+</Precio_de_la_clase>
+
+<Número_de_plazas_disponibles></Número_de_plazas_disponibles>
+
+<Fecha_de_inicio_de_las_clases></Fecha_de_inicio_de_las_clases>
+
+<Fecha_de_finalización_de_las_clases></Fecha_de_finalización_de_las_clases>
+
+<Días_de_la_semana_que_realiza_la_clase></Días_de_la_semana_que_realiza_la_clase>
+
+<Nombre_del_profesor_que_da_la_clase>Sofía</Nombre_del_profesor_que_da_la_clase>
+
+<Sala_en_la_que_se_desarrollará_la_clase>3</Sala_en_la_que_se_desarrollará_la_clase>
+</baile>
+
+<baile Tipo="Breakdance">
+    <Precio_de_la_clase>
+        <periocidad_cuoata>Semanal</periocidad_cuoata>
+    <moneda_de_pago>Euro</moneda_de_pago>
+    </Precio_de_la_clase>
+
+    <Número_de_plazas_disponibles></Número_de_plazas_disponibles>
+
+    <Fecha_de_inicio_de_las_clases></Fecha_de_inicio_de_las_clases>
+
+    <Fecha_de_finalización_de_las_clases></Fecha_de_finalización_de_las_clases>
+
+    <Días_de_la_semana_que_realiza_la_clase></Días_de_la_semana_que_realiza_la_clase>
+
+    <Nombre_del_profesor_que_da_la_clase>Bruno</Nombre_del_profesor_que_da_la_clase>
+
+    <Sala_en_la_que_se_desarrollará_la_clase>1</Sala_en_la_que_se_desarrollará_la_clase>
+</baile>
+
+<baile Tipo="Rumba">
+    <Precio_de_la_clase>
+        <periocidad_cuoata>Diario</periocidad_cuoata>
+    <moneda_de_pago>Euro</moneda_de_pago>
+    </Precio_de_la_clase>
+
+    <Número_de_plazas_disponibles></Número_de_plazas_disponibles>
+
+    <Fecha_de_inicio_de_las_clases></Fecha_de_inicio_de_las_clases>
+
+    <Fecha_de_finalización_de_las_clases></Fecha_de_finalización_de_las_clases>
+
+    <Días_de_la_semana_que_realiza_la_clase></Días_de_la_semana_que_realiza_la_clase>
+
+    <Nombre_del_profesor_que_da_la_clase>Fiona</Nombre_del_profesor_que_da_la_clase>
+
+    <Sala_en_la_que_se_desarrollará_la_clase>2</Sala_en_la_que_se_desarrollará_la_clase>
+</baile>
+
+<baile Tipo="Cumbia">
+    <Precio_de_la_clase>
+        <periocidad_cuoata>Cada 3 meses</periocidad_cuoata>
+    <moneda_de_pago>Euro</moneda_de_pago>
+    </Precio_de_la_clase>
+
+    <Número_de_plazas_disponibles></Número_de_plazas_disponibles>
+
+    <Fecha_de_inicio_de_las_clases></Fecha_de_inicio_de_las_clases>
+
+    <Fecha_de_finalización_de_las_clases></Fecha_de_finalización_de_las_clases>
+
+    <Días_de_la_semana_que_realiza_la_clase></Días_de_la_semana_que_realiza_la_clase>
+
+    <Nombre_del_profesor_que_da_la_clase>Bruno</Nombre_del_profesor_que_da_la_clase>
+
+    <Sala_en_la_que_se_desarrollará_la_clase>1</Sala_en_la_que_se_desarrollará_la_clase>
+</baile>
+
+<baile Tipo="Pasodoble">
+    <Precio_de_la_clase>
+        <periocidad_cuoata>Mensual</periocidad_cuoata>
+    <moneda_de_pago>Euro</moneda_de_pago>
+    </Precio_de_la_clase>
+
+    <Número_de_plazas_disponibles></Número_de_plazas_disponibles>
+
+    <Fecha_de_inicio_de_las_clases></Fecha_de_inicio_de_las_clases>
+
+    <Fecha_de_finalización_de_las_clases></Fecha_de_finalización_de_las_clases>
+
+    <Días_de_la_semana_que_realiza_la_clase></Días_de_la_semana_que_realiza_la_clase>
+
+    <Nombre_del_profesor_que_da_la_clase>Fiona</Nombre_del_profesor_que_da_la_clase>
+
+    <Sala_en_la_que_se_desarrollará_la_clase>2</Sala_en_la_que_se_desarrollará_la_clase>
+</baile>
+
+<baile Tipo="Charlestón">
+    <Precio_de_la_clase>
+        <periocidad_cuoata>Cada 2 semanas y media</periocidad_cuoata>
+    <moneda_de_pago>Euro</moneda_de_pago>
+    </Precio_de_la_clase>
+
+    <Número_de_plazas_disponibles></Número_de_plazas_disponibles>
+
+    <Fecha_de_inicio_de_las_clases></Fecha_de_inicio_de_las_clases>
+
+    <Fecha_de_finalización_de_las_clases></Fecha_de_finalización_de_las_clases>
+
+    <Días_de_la_semana_que_realiza_la_clase></Días_de_la_semana_que_realiza_la_clase>
+
+    <Nombre_del_profesor_que_da_la_clase>Sofía</Nombre_del_profesor_que_da_la_clase>
+
+    <Sala_en_la_que_se_desarrollará_la_clase>3</Sala_en_la_que_se_desarrollará_la_clase>
+</baile>
+
+
+
+</clase_de_baile>
+
+
+
+
+
+<!-- Crear un XSL que transforme el documento XML 
+    en un HTML donde se presente toda la información 
+    de esta de la academia de forma adecuada.-->
