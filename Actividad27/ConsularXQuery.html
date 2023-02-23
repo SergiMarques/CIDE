@@ -1,0 +1,18 @@
+<!--Primera consulta --> 
+for $libro in //libro
+return $libro/titulo/text()
+
+
+<!--Segunda consulta --> 
+for $libro in //libro
+order by $libro/@anyo
+return concat($libro/@anyo, " -> ", $libro/titulo/text())
+
+
+<!--Tercera consulta --> 
+for $libro in //libro[precio=65.95]
+return $libro
+
+
+
+<!--Quarta consulta --> 
