@@ -126,3 +126,20 @@
 <!-- Crear un XSL que transforme el documento XML 
     en un HTML donde se presente toda la información 
     de esta de la academia de forma adecuada.-->
+
+    <!-- Primera consulta simulacro
+    
+    for $clase in //clase
+return concat("Profesor: ", $clase/profesor, 
+              ", Clase: ", $clase/nombre, 
+              ", Precio: ", $clase/precio, "&#xa;")
+
+    -->
+
+
+    <!-- Segunda consulta simulacro
+
+        for $clase in /academia/clases/clase[sala/text()="2" and precio < 35]
+return $clase
+
+    -->
