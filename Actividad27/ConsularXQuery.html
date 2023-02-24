@@ -16,3 +16,94 @@ return $libro
 
 
 <!--Quarta consulta --> 
+for $libro in //libro[@anyo < 2000]
+return $libro
+
+
+<!--Quinta consulta --> 
+
+for $libro in //libro[editorial="Addison-Wesley" and @anyo > 1992]
+return concat($libro/@anyo, " -> ", $libro/titulo/text())
+
+
+<!--Sexta consulta --> 
+for $libro in //libro[count(autor) > 1]
+return concat($libro/@anyo, " -> ", $libro/titulo/text())
+
+
+<!--Septima consulta --> 
+for $libro in //libro[not(autor)]
+return concat($libro/@anyo, " -> ", $libro/titulo/text())
+
+
+<!--Octava consulta --> 
+for $apellido in distinct-values(//apellido)
+order by $apellido
+return $apellido
+
+
+<!--Novena consulta --> 
+for $libro in //libro
+let $autores := $libro/autor
+return <result>
+           <titulo>{ $libro/titulo/text() }</titulo>
+           { for $autor in $autores
+             return <autor>
+                        <apellido>{ $autor/apellido/text() }</apellido>
+                        <nombre>{ $autor/nombre/text() }</nombre>
+                    </autor>
+           }
+       </result>
+
+
+<!--Decima consulta --> 
+for $libro in //libro
+let $numAutores := count($libro/autor)
+return <libro>
+           <titulo>{ $libro/titulo/text() }</titulo>
+           <numAutores>{ $numAutores }</numAutores>
+       </libro>
+
+
+<!--Onceava consulta --> 
+<html>
+<head>
+  <title>Listado de libros</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border: 1px solid black;
+    }
+    th {
+      font-weight: bold;
+    }
+    td:nth-child(3) {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <h1>Listado de libros</h1>
+  <table>
+    <tr>
+      <th>Título</th>
+      <th>Editorial</th>
+      <th>Precio</th>
+    </tr>
+    {
+      for $libro in //libro
+      return
+        <tr>
+          <td>{data($libro/titulo)}</td>
+          <td>{data($libro/editorial)}</td>
+          <td>{data($libro/precio)}</td>
+        </tr>
+    }
+  </table>
+</body>
+</html>
