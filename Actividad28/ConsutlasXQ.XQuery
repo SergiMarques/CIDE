@@ -33,17 +33,62 @@ return <titulo>{data($book/title)}</titulo>
 
 
 <!-- Mostrar los años de publicación usando una clausula FLWOR, pero usando “let” para almacenar los resultados intermedios. Etiquetar la salida con <publicación>.-->
-<publicacion>{
-for $year in distinct-values(bookstore/book/year)
-let $count := count(bookstore/book[year = $year])
-return <año cantidad="{$count}">{$year}</año>
-}</publicacion>
+<publicaciones>
+{
+  for $libro in bookstore/book
+  let $año := $libro/year
+  return <publicación>{$año}</publicación>
+}
+</publicaciones>
+
+<!--  Mostrar los libros ordenados primero por “category” y después por “title” en una única consulta. --> 
+<bookstore>
+{
+for $book in //book
+order by $book/@category, $book/title
+return $book
+}
+</bookstore>
+
+<!-- Mostrar cuántos libros hay, y etiquetarlo con <total>. -->
+<total>{count(//book)}</total>
 
 
+<!-- Mostrar los títulos de los libros y al final una etiqueta con el número total de libros. -->
+
+<libros>
+{
+  for $book in bookstore/book
+  return <titulo>{data($book/title)}</titulo>
+}
+<total>{count(bookstore/book)}</total>
+</libros>
 
 
+<!-- Mostrar el precio mínimo y máximo de los libros. -->
+let $books := doc("bookstore.xml")/bookstore/book
+return 
+    <precios>
+        <precio-minimo>{min($books/price)}</precio-minimo>
+        <precio-maximo>{max($books/price)}</precio-maximo>
+    </precios>
+
+<!-- Mostrar el título del libro, su precio y precio con IVA incluido, cada uno con su propia etiqueta. Ordénelos por precio con IVA.-->
 
 
+<books>
+{
+  for $book in bookstore/book
+  let $price := $book/price * 1.21
+  order by $price ascending
+  return
+    <book>
+      <title>{data($book/title)}</title>
+      <price>{data($book/price)}</price>
+      <price_with_iva>{number($price)}</price_with_iva>
+    </book>
+}
+</books>
 
 
 
