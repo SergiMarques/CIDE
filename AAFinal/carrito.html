@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Tienda Online - Carrito</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="carrito.css">
 </head>
 <body>
-    <header>
-        <h1>Tienda Online</h1>
-        <!-- Menú de navegación -->
-    </header>
-    <main>
-        <h2>Tu carrito de compras</h2>
-        <!-- Contenido del carrito -->
-    </main>
-    <footer>
-        <p>&copy; 2023 Tienda Online. Todos los derechos reservados.</p>
-    </footer>
+  <!-- Encabezado -->
+  <header>
+    <h1>Carrito de Compras</h1>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <div class="carrito">
+      <!-- Primer producto en el carrito -->
+      <div class="producto">
+        <img src="imagen1.jpg" alt="Producto 1">
+        <div class="info">
+          <h3>Producto 1</h3>
+          <p>Precio: $19.99</p>
+          <p>Cantidad: 1</p>
+        </div>
+        <button>Eliminar</button>
+      </div>
+
+      <!-- Segundo producto en el carrito -->
+      <div class="producto">
+        <img src="imagen2.jpg" alt="Producto 2">
+        <div class="info">
+          <h3>Producto 2</h3>
+          <p>Precio: $24.99</p>
+          <p>Cantidad: 2</p>
+        </div>
+        <button>Eliminar</button>
+      </div>
+
+      <!-- Tercer producto en el carrito -->
+      <div class="producto">
+        <img src="imagen3.jpg" alt="Producto 3">
+        <div class="info">
+          <h3>Producto 3</h3>
+          <p>Precio: $29.99</p>
+          <p>Cantidad: 1</p>
+        </div>
+        <button>Eliminar</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>Tienda de Ropa &copy; 2023</p>
+  </footer>
 </body>
 </html>
