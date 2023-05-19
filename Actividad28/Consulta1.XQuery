@@ -1,2 +1,2 @@
 for $book in //book
-return $book/title/text()
+return <titulo>{data($book/title)}</titulo>
