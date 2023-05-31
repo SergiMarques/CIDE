@@ -1,63 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CDs>
+<?xml-stylesheet href="Tabla4_Convertida.xsl" type="text/xsl"?>   
+ <ALBUM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Tabla4_Convertida.xsd">
 <CD>
-
-<Titulo>Still got the blues</Titulo>
-<Artista>Gary Moore</Artista>
-<Pais>UK</Pais>
-<Compañia>Virgin records</Compañia>
-<Precio>10.20</Precio>
-<Año>1990</Año>
+    <titulo>Still got the blues</titulo>
+    <Artista>Gary Moore</Artista>
+    <Pais>UK</Pais>
+    <Compania>Virgin records</Compania>
+    <Precio>10.20</Precio>
+    <anio>1990</anio>
 </CD>
 
 <CD>
-    <Titulo>One night only</Titulo>
+    <titulo>One night only</titulo>
     <Artista>Bee Gees</Artista>
     <Pais>UK</Pais>
-    <Compañia>Polydor</Compañia>
+    <Compania>Polydor</Compania>
     <Precio>10.90</Precio>
-    <Año>1998</Año>
+    <anio>1998</anio>
 </CD>
 
-
 <CD>
-    <Titulo>When a man loves a woman</Titulo>
+    <titulo>When a man loves a woman</titulo>
     <Artista>Percy Sledge</Artista>
     <Pais>USA</Pais>
-    <Compañia>Atlantic</Compañia>
+    <Compania>Atlantic</Compania>
     <Precio>8.70</Precio>
-    <Año>1987</Año>
+    <anio>1987</anio>
 </CD>
 
-
 <CD>
-    <Titulo>Big Willie style</Titulo>
+    <titulo>Big Willie style</titulo>
     <Artista>Will Smith</Artista>
     <Pais>USA</Pais>
-    <Compañia>Columbia</Compañia>
+    <Compania>Columbia</Compania>
     <Precio>9.90</Precio>
-    <Año>1997</Año>
+    <anio>1997</anio>
 </CD>
 
-
 <CD>
-    <Titulo>La canción de Juan Perro</Titulo>
+    <titulo>La canción de Juan Perro</titulo>
     <Artista>Radio Futura</Artista>
     <Pais>España</Pais>
-    <Compañia>Sony Music-Ariola</Compañia>
+    <Compania>Sony Music-Ariola</Compania>
     <Precio>9.90</Precio>
-    <Año>1987</Año>
+    <anio>1987</anio>
 </CD>
-
 
 <CD>
-    <Titulo>The dock of the bay</Titulo>
+    <titulo>The dock of the bay</titulo>
     <Artista>Otis Redding</Artista>
     <Pais>USA</Pais>
-    <Compañia>Atlantic</Compañia>
+    <Compania>Atlantic</Compania>
     <Precio>7.90</Precio>
-    <Año>1987</Año>
+    <anio>1987</anio>
 </CD>
 
-
-</CDs>
+</ALBUM>

@@ -1,31 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  
-  <xsl:output method="text" media-type="application/json" encoding="UTF-8"/>
-
-  <xsl:template match="/">
-    <xsl:text>{ "CDs": [ </xsl:text>
-    <xsl:apply-templates select="//CD"/>
-    <xsl:text> ] }</xsl:text>
-  </xsl:template>
-  
-  <xsl:template match="CD">
-    <xsl:text>{ "Titulo": "</xsl:text>
-    <xsl:value-of select="Titulo"/>
-    <xsl:text>", "Artista": "</xsl:text>
-    <xsl:value-of select="Artista"/>
-    <xsl:text>", "Pais": "</xsl:text>
-    <xsl:value-of select="Pais"/>
-    <xsl:text>", "Compania": "</xsl:text>
-    <xsl:value-of select="Compañia"/>
-    <xsl:text>", "Precio": </xsl:text>
-    <xsl:value-of select="Precio"/>
-    <xsl:text>, "Anio": </xsl:text>
-    <xsl:value-of select="Año"/>
-    <xsl:text> }</xsl:text>
-    <xsl:if test="position()!=last()">
-      <xsl:text>, </xsl:text>
-    </xsl:if>
-  </xsl:template>
-  
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="text" indent="yes" />
+    <xsl:template match="/">
+       { "ALBUM" : {"CD":[
+       <xsl:for-each select="ALBUM/CD">
+          {
+  "titulo" : "<xsl:value-of select="titulo" />" ,
+  "Artista" : "<xsl:value-of select="Artista" />" ,
+  "Pais" : "<xsl:value-of select="Pais" />" ,
+  "Compania" : "<xsl:value-of select="Compania" />" ,
+  "Precio" : "<xsl:value-of select="Precio" />" ,
+  "anio" : "<xsl:value-of select="anio" />" ,
+          }
+       </xsl:for-each>
+       ]}}
+    </xsl:template>
 </xsl:stylesheet>
