@@ -1,0 +1,20 @@
+
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    text-align: left;
+    background-color: white;
+    
+  }
+
+
+  hr {
+    height: 0.2px;
+    background-color: grey;
+  }
+
+  img {
+
+    text-align: left;
+  }
