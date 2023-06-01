@@ -1,4 +1,4 @@
-for $libro in //libro
+for $libro in doc("biblioteca.xml")/bib/libro
 let $autores := $libro/autor
 return <result>
            <titulo>{ $libro/titulo/text() }</titulo>

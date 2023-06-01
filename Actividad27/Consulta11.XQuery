@@ -1,23 +1,7 @@
 <html>
 <head>
   <title>Listado de libros</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      text-align: left;
-      padding: 8px;
-      border: 1px solid black;
-    }
-    th {
-      font-weight: bold;
-    }
-    td:nth-child(3) {
-      text-align: right;
-    }
-  </style>
+  
 </head>
 <body>
   <h1>Listado de libros</h1>
@@ -28,7 +12,7 @@
       <th>Precio</th>
     </tr>
     {
-      for $libro in //libro
+      for $libro in doc("biblioteca.xml")/bib/libro
       return
         <tr>
           <td>{data($libro/titulo)}</td>
