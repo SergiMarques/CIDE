@@ -1,6 +1,6 @@
 <publicaciones>
 {
-  for $libro in bookstore/book
+  for $libro in doc("libreria.xml")/bookstore/book
   let $año := $libro/year
   return <publicacion>{$año}</publicacion>
 }
