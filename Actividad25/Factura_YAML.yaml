@@ -1,5 +1,5 @@
 ---
-FACTURA:
+Recibo:
   "-numero": 999
   proveedor:
     empresa: Equipos Digitales S.L

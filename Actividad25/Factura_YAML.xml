@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Recibo>
+<?xml-stylesheet href="Factura_YAML.xsl" type="text/xsl"?>
 
-    <Factura number="999">
+<Recibo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Factura_YAML.xsd">
+
+
+    <Factura >
         <empresa>Equipos Digitales S.L.</empresa>
         <calle>Av. Valladolid</calle>
         <localidad>Madrid 28015</localidad>
@@ -16,7 +20,7 @@
     <datos_cliente>
         <cliente>nº 897</cliente>
         <nombre>Dario Bueno Gutiérrez</nombre>
-        <dirrección>Av. Oporto nº7 4ºd</dirrección>
+        <direccion>Av. Oporto nº7 4ºd</direccion>
         <población>Madrid</población>
         <codigo_postal>28043</codigo_postal>
         <provincia>Madrid</provincia>
@@ -61,13 +65,13 @@
             <Importe>556,80 eur</Importe>
         </datos_factura>
 
-    </tabla>
+    
     <Suma>
         <Base_imponible>970 eur</Base_imponible>
         <IVA>16</IVA>
         <Cuota_IVA>155,20 eur</Cuota_IVA>
         <precio_total>1125,20 eur</precio_total>
     </Suma>
-
+</tabla>
 
 </Recibo>
