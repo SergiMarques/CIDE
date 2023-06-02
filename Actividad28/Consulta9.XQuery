@@ -1,7 +1,8 @@
-<libros>
-{
-  for $book in bookstore/book
-  return <titulo>{data($book/title)}</titulo>
-}
-<total>{count(bookstore/book)}</total>
-</libros>
+
+for $book in doc("libreria.xml")/bookstore/book
+let $numlibros :=count(bookstore/$book)
+  return <todo>
+  <titulo>{data($book/title)}</titulo> 
+<total>{ $numlibros }</total>
+</todo>
+

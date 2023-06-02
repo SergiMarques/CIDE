@@ -1,6 +1,6 @@
 <books>
 {
-  for $book in bookstore/book
+  for $book in doc("libreria.xml")/bookstore/book
   let $price_with_iva := $book/price * 1.21
   order by $price_with_iva ascending
   return

@@ -1,6 +1,6 @@
 <bookstore>
 {
-  for $book in //book
+  for $book in doc("libreria.xml")/bookstore/book
   order by $book/@category, $book/title
   return $book
 }

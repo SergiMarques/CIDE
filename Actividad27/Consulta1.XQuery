@@ -1,2 +1,2 @@
-for $libro in //libro
-return $libro/titulo/text()
+for $x in doc("biblioteca.xml")/bib/libro
+return data($x/titulo)
