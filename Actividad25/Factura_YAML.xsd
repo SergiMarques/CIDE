@@ -4,12 +4,9 @@
 
         <xs:complexType>
             <xs:sequence>
-
-
                 <xs:element name="Factura">
                     <xs:complexType>
                         <xs:sequence>
-
                             <xs:element name="empresa" type="xs:string" />
                             <xs:element name="calle" type="xs:string" />
                             <xs:element name="localidad" type="xs:string" />
@@ -22,46 +19,36 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-
                 <xs:element name="datos_cliente">
                     <xs:complexType>
                         <xs:sequence>
-
                             <xs:element name="cliente" type="xs:string" />
                             <xs:element name="nombre" type="xs:string" />
                             <xs:element name="direccion" type="xs:string" />
                             <xs:element name="población" type="xs:string" />
                             <xs:element name="codigo_postal" type="xs:string" />
                             <xs:element name="provincia" type="xs:string" />
-
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-
                 <xs:element name="tabla">
                     <xs:complexType>
                         <xs:sequence>
-
                             <xs:element name="datos_factura" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-
                                         <xs:element name="referencia" type="xs:string" />
                                         <xs:element name="descripción" type="xs:string" />
                                         <xs:element name="cantidad" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="IVA" type="xs:string" />
                                         <xs:element name="Importe" type="xs:string" />
-
-
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
                             <xs:element name="Suma">
                                 <xs:complexType>
                                     <xs:sequence>
-
                                         <xs:element name="Base_imponible" type="xs:string" />
                                         <xs:element name="IVA" type="xs:string" />
                                         <xs:element name="Cuota_IVA" type="xs:string" />
@@ -69,18 +56,10 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
-                
-
-
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-
-
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
-
 </xs:schema>
